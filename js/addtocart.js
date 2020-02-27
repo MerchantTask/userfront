@@ -34,7 +34,7 @@
           console.log('Success:', data);
           if (data.message =="Already Added"){
             this.alert("Already Added");
-            window.location.href = 'getProduct.html';
+            window.location.href = 'index.html';
           }
           else{
             this.alert("Add to cart");
