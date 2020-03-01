@@ -46,15 +46,7 @@ window.onload = function () {
 										<p class="item-total"> <span>Item Total : </span><span id="price-${element._id}">${element.price}</span></p>
 									
 										
-										<div class="star-rating">
-    										<ul class="list-inline">
-    											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-    											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-    											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-    											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-    											<li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
-    										</ul>
-										</div>
+										<br>
 										
 							
 										<input type="submit" value="Remove" id="remove" onclick="remove('${element._id}')"> 

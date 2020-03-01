@@ -11,6 +11,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="style.css">
 <script src="js/getallProduct.js"></script>
+<script src="js/search.js"></script>
 
 
 
@@ -79,17 +80,23 @@
                 </li>
                             <li class="nav-item"><a href="getAddtocart.html" class="nav-link">Cart</a></li>
             </ul>
+            <div class="container">
             <form class="navbar-form form-inline navbar-right ml-auto">
                 <div class="input-group search-box">
-                    <input type="text" class="form-control">
+                    <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                        <input type="text" class="form-control searchSelect" id="product_name" placeholder="Enter product name">
+                      </div>
                     <span class="input-group-btn">
-                        <button type="button" class="btn btn-primary"><span>Search</span></button>
+                        <button type="button" class="btn btn-primary" id="mmm"><span>Search</span></button>
                     </span>
                 </div>
-            </form>		
-        </div>
+            </form>		    
     </nav>
+    <h4 class="group card-title inner list-group-item-heading" id="myDiv">Search results</h4>
+    <div id="searchResults" class="row view-group">
+    </div>
 
+</div>
     <div class="container">
         <div class="row">
             <div class="col-md-12">

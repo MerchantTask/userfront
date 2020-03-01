@@ -20,16 +20,7 @@ window.onload = function() {
                             <p class="item-price"> <span>price : Rs ${element.price}</span></p>
                           <span>Quantity: ${element.quantity}</span>
                            
-                            
-                            <div class="star-rating">
-                                <ul class="list-inline">
-                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                    <li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
-                                </ul>
-                            </div>
+                            <br>
                             <a href="addtocart.html?id=${element._id}" > <input type="submit" id="submit" value="Addtocart"></a>
                 
                         
