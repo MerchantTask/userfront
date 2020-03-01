@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $('#mmm').click(function (e) {
+  $('#searchButton').click(function (e) {
     e.preventDefault();
 
     $('#searchResults').empty();
