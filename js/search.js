@@ -43,7 +43,7 @@ $(document).ready(function () {
           '<h4 class="group card-title inner list-group-item-heading">Quantity:' + res[index].quantity +
           '</h4>' +
           '<div class="caption card-body">' +
-          '<h4 class="group card-title inner list-group-item-heading">Price: Rs ' + res[index].quantity +
+          '<h4 class="group card-title inner list-group-item-heading">Price: Rs ' + res[index].price +
           '</h4>' +
           '<br>'+
           '<div class="col-xs-6 col-md-6  ">' +
